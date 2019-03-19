@@ -15,6 +15,8 @@ namespace Imay
         public Form1()
         {
             InitializeComponent();
+
+            Console.WriteLine("Hellow");
         }
     }
 }
