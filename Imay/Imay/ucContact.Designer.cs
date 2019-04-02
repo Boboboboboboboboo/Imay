@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.panel = new System.Windows.Forms.Panel();
-            this.pImage = new System.Windows.Forms.Panel();
             this.pName = new System.Windows.Forms.Panel();
-            this.picImage = new System.Windows.Forms.PictureBox();
             this.lblName = new System.Windows.Forms.Label();
+            this.pImage = new System.Windows.Forms.Panel();
+            this.picImage = new System.Windows.Forms.PictureBox();
             this.panel.SuspendLayout();
-            this.pImage.SuspendLayout();
             this.pName.SuspendLayout();
+            this.pImage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,59 +45,65 @@
             this.panel.Controls.Add(this.pImage);
             this.panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel.Location = new System.Drawing.Point(0, 0);
+            this.panel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(250, 32);
+            this.panel.Size = new System.Drawing.Size(184, 42);
             this.panel.TabIndex = 0;
+            // 
+            // pName
+            // 
+            this.pName.Controls.Add(this.lblName);
+            this.pName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pName.Location = new System.Drawing.Point(44, 0);
+            this.pName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pName.Name = "pName";
+            this.pName.Size = new System.Drawing.Size(140, 42);
+            this.pName.TabIndex = 0;
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Location = new System.Drawing.Point(48, 15);
+            this.lblName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(29, 12);
+            this.lblName.TabIndex = 0;
+            this.lblName.Text = "Bean";
             // 
             // pImage
             // 
             this.pImage.Controls.Add(this.picImage);
             this.pImage.Dock = System.Windows.Forms.DockStyle.Left;
             this.pImage.Location = new System.Drawing.Point(0, 0);
+            this.pImage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pImage.Name = "pImage";
-            this.pImage.Size = new System.Drawing.Size(35, 32);
+            this.pImage.Size = new System.Drawing.Size(44, 42);
             this.pImage.TabIndex = 0;
-            // 
-            // pName
-            // 
-            this.pName.Controls.Add(this.lblName);
-            this.pName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pName.Location = new System.Drawing.Point(35, 0);
-            this.pName.Name = "pName";
-            this.pName.Size = new System.Drawing.Size(215, 32);
-            this.pName.TabIndex = 0;
             // 
             // picImage
             // 
+            this.picImage.BackgroundImage = global::Imay.Properties.Resources.Icon;
+            this.picImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.picImage.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picImage.Image = global::Imay.Properties.Resources.Icon;
             this.picImage.Location = new System.Drawing.Point(0, 0);
+            this.picImage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picImage.Name = "picImage";
-            this.picImage.Size = new System.Drawing.Size(35, 32);
-            this.picImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picImage.Size = new System.Drawing.Size(44, 42);
             this.picImage.TabIndex = 0;
             this.picImage.TabStop = false;
             // 
-            // lblName
-            // 
-            this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(69, 8);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(39, 15);
-            this.lblName.TabIndex = 0;
-            this.lblName.Text = "Bean";
-            // 
             // ucContact
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ucContact";
-            this.Size = new System.Drawing.Size(250, 32);
+            this.Size = new System.Drawing.Size(184, 42);
             this.panel.ResumeLayout(false);
-            this.pImage.ResumeLayout(false);
             this.pName.ResumeLayout(false);
             this.pName.PerformLayout();
+            this.pImage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picImage)).EndInit();
             this.ResumeLayout(false);
 
