@@ -17,6 +17,5 @@ namespace Imay
         {
             InitializeComponent();
         }
-
     }
 }

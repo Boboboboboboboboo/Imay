@@ -44,18 +44,18 @@
             // 
             this.scMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.scMain.Location = new System.Drawing.Point(0, 0);
-            this.scMain.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.scMain.Margin = new System.Windows.Forms.Padding(2);
             this.scMain.Name = "scMain";
             // 
             // scMain.Panel1
             // 
             this.scMain.Panel1.Controls.Add(this.pLeft);
-            this.scMain.Panel1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.scMain.Panel1.Padding = new System.Windows.Forms.Padding(2);
             // 
             // scMain.Panel2
             // 
             this.scMain.Panel2.Controls.Add(this.pRight);
-            this.scMain.Panel2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.scMain.Panel2.Padding = new System.Windows.Forms.Padding(2);
             this.scMain.Size = new System.Drawing.Size(683, 460);
             this.scMain.SplitterDistance = 185;
             this.scMain.SplitterWidth = 3;
@@ -68,7 +68,7 @@
             this.pLeft.Controls.Add(this.Bean);
             this.pLeft.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pLeft.Location = new System.Drawing.Point(2, 2);
-            this.pLeft.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pLeft.Margin = new System.Windows.Forms.Padding(2);
             this.pLeft.Name = "pLeft";
             this.pLeft.Padding = new System.Windows.Forms.Padding(2, 2, 1, 2);
             this.pLeft.Size = new System.Drawing.Size(181, 456);
@@ -78,7 +78,7 @@
             // 
             this.Bear.ContactName = "Bear";
             this.Bear.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Bear.Location = new System.Drawing.Point(2, 54);
+            this.Bear.Location = new System.Drawing.Point(2, 50);
             this.Bear.Margin = new System.Windows.Forms.Padding(2);
             this.Bear.Name = "Bear";
             this.Bear.Size = new System.Drawing.Size(176, 48);
@@ -91,7 +91,7 @@
             this.Bean.Location = new System.Drawing.Point(2, 2);
             this.Bean.Margin = new System.Windows.Forms.Padding(2);
             this.Bean.Name = "Bean";
-            this.Bean.Size = new System.Drawing.Size(176, 52);
+            this.Bean.Size = new System.Drawing.Size(176, 48);
             this.Bean.TabIndex = 0;
             // 
             // pRight
@@ -99,7 +99,7 @@
             this.pRight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pRight.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pRight.Location = new System.Drawing.Point(2, 2);
-            this.pRight.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pRight.Margin = new System.Windows.Forms.Padding(2);
             this.pRight.Name = "pRight";
             this.pRight.Padding = new System.Windows.Forms.Padding(1, 2, 2, 2);
             this.pRight.Size = new System.Drawing.Size(491, 456);
